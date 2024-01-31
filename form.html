@@ -72,6 +72,7 @@ Description : A simple HTML file for form tag.
           min="1"
           max="10"
           value="2" /><br />
+        <label for="homepage">Homepage:</label><br />
         <input type="url" id="homepage" name="homepage" /><br />
         <label for="feedback">Feedback:</label><br />
         <textarea
@@ -81,11 +82,13 @@ Description : A simple HTML file for form tag.
           cols="100"
           wrap="soft"></textarea
         ><br />
-        <label for="fileInput">Choose a File:</label>
-        <input type="file" id="fileInput" name="fileInput">
+        <input type="file" id="fileInput" name="fileInput" />
         <label for="subscribeCheckbox">Subscribe to Newsletter:</label>
-        <input type="checkbox" id="subscribeCheckbox" name="subscribeCheckbox">        
-        <input type="hidden" id="customerId" name="customerId" value="12345">        
+        <input
+          type="checkbox"
+          id="subscribeCheckbox"
+          name="subscribeCheckbox" />
+        <input type="hidden" id="customerId" name="customerId" value="12345" />
         <input type="submit" value="Submit" />
         <input type="reset" value="Reset" />
       </fieldset>
